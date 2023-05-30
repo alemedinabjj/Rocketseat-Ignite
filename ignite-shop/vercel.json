@@ -1,9 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "package.json", "use": "@vercel/static-build" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/subpasta/$1" }
+  "rewrites": [
+    { "source": "/Rocketseat-Ignite/ignite-shop/(.*)", "destination": "/$1" }
   ]
 }
