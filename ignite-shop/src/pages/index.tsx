@@ -55,7 +55,7 @@ export const getStaticProps: GetStaticProps = async () => {
       expand: ['data.default_price'],
     },
     {
-      apiKey: process.env.STRIPE_API_KEY,
+      apiKey: process.env.STRIPE_SECRET_KEY,
     },
   )
 
