@@ -9,3 +9,4 @@ declare module 'next-auth' {
     avatar_url: string
   }
 }
+
